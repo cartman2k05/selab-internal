@@ -8,7 +8,7 @@
   <groupId>KMIT</groupId>  
   <artifactId>ors-maven-webapp</artifactId>
   <version>1.0.0</version> <!-- version also added-->
-  <packaging>jar</packaging>  
+  <packaging>war</packaging>  
   <name>ORS Maven Webapp</name>  
   <url>http://localhost:8081</url>  <!-- url updated here-->
   <properties>  
