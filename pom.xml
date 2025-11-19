@@ -51,7 +51,7 @@
         <version>3.4.0</version>
       </plugin>
 
-      <!-- Compiler plugin -->
+      <!-- Compiler plugin hello -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
