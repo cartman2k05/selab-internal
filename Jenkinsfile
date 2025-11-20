@@ -4,11 +4,7 @@ pipeline {
         maven 'MAVEN_HOME'
     }
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
+        
         stage('clean') {
             steps {
                 echo "cleaning"
