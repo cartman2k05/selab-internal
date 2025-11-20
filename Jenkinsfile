@@ -4,7 +4,6 @@ pipeline {
         maven 'MAVEN_HOME'
     }
     stages {
-        
         stage('clean') {
             steps {
                 echo "cleaning"
@@ -28,9 +27,6 @@ pipeline {
                 echo "packaging"
                 bat "mvn package"
             }
-        stage('final output'){
-                echo "finishing.."
-           }  
         }
     }
 }
